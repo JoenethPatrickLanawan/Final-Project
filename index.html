@@ -1,0 +1,156 @@
+<DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            body {
+                background-color: #f9f5f0;
+                margin: 0;
+                padding: 0;
+            }
+            #bar {
+                background-color: #f4991a;
+                padding: 20px;
+                margin: 0px;
+            } 
+           .barbutton {
+                background-color: #f9f5f0;
+                border: 0px solid black;
+                border-radius: clamp(0.5rem, 2vw, 1rem);
+                padding: clamp(0.5rem, 2vw, 1.0rem);
+                color: #344f1f;
+                font-size: clamp(1rem, 1vw, 3rem);
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-right: 4px;
+                margin-top: 8px;
+            }
+            #webtitle {
+                color: #f4991a;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: center;
+                font-size: clamp(1.5rem, 4vw, 5rem);
+                margin-bottom: 5;
+            }
+            #semititle {
+                color: #344f1f;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                font-size: clamp(0.5rem, 3vw, 1rem);
+                font-weight: lighter;
+                margin-top: 0;
+                margin-left: 20;
+                margin-right: 20;
+            }
+            .stspan {
+                font-weight: bold;
+            }
+            #hscroll {
+                display: flex;
+                overflow-x: auto;
+                margin: 5;
+            }
+            #recommended {
+                color: #344f1f;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 10;
+                font-size: clamp(1.0rem, 3vw, 1.5rem);
+            }
+            .games {
+                display: flex;
+                gap: 10px;
+                flex-shrink: 0;
+            } 
+            .gamecard {
+                display: flex;
+            }
+            .gamecard img {
+                width: clamp(5rem, 12vw, 5rem);
+                height: fit-content;
+                margin: 5;
+                border-radius: 10px;
+            }
+            .gamecard h3 {
+                margin: 10px 0 5px;
+            }
+            div h3 {
+                color: #344f1f;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .review {
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+            }
+            .download {
+                background-color: #344f1f;
+                color: #f9f5f0;
+                padding: 5px;
+                border-radius: 10px;
+                display: inline-block;
+                font-size: smaller;
+                font-weight: bold;
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="bar">
+        <button class="barbutton">Home</button>
+        <button class="barbutton">List & Reviews</button>
+        <button class="barbutton">Contacts & Suggestions</button>
+        </div>
+
+        <h1 id="webtitle">Brutallyhonestreviews.com</h1>
+        <h2 id="semititle"> A place of <span class="stspan">honest</span> (yet) <span class="stspan">subjective 
+            opinions</span> on games around the <span class="stspan">android game market.</span></h2>
+        
+        <h2 id="recommended">Recommended Games</h2>
+        <div id="hscroll">
+            <div class="games">
+
+                <div class="gamecard">
+                    <img src="assoluto.png" alt="Assoluto Racing">
+                    <div class="textgroup">
+                        <h3>Assoluto Racing</h3>
+                        <a href="#" class="review">view review</a><br>
+                        <a href="https://play.google.com/store/apps/details?id=com.infinityvector.assolutoracing&hl=en-US" 
+                        class="download">Download (Free)</a>
+                    </div>
+                </div>
+
+                <div class="gamecard">
+                    <img src="theotown.webp" alt="Assoluto Racing">
+                    <div class="textgroup">
+                        <h3>Theotown</h3>
+                        <a href="#" class="review">view review</a><br>
+                        <a href="https://play.google.com/store/apps/details?id=info.flowersoft.theotown.theotown&hl=en-US" 
+                        class="download">Download (Free)</a>
+                    </div>
+                </div>
+
+                <div class="gamecard">
+                    <img src="juno.png" alt="Assoluto Racing">
+                    <div class="textgroup">
+                        <h3>Juno: New Origins</h3>
+                        <a href="#" class="review">view review</a><br>
+                        <a href="https://play.google.com/store/apps/details?id=com.jundroo.junoneworigins&hl=en-US" 
+                        class="download">Download (Free)</a>
+                    </div>
+                </div>
+
+                <div class="gamecard">
+                    <img src="assoluto.png" alt="Assoluto Racing">
+                    <div class="textgroup">
+                        <h3>Assoluto Racing</h3>
+                        <a href="#" class="review">view review</a><br>
+                        <a href="https://play.google.com/store/apps/details?id=com.infinityvector.assolutoracing&hl=en-US" 
+                        class="download">Download (Free)</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+<html>
